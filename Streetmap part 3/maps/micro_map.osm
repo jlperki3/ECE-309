@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmconvert 0.8.11" timestamp="2023-01-09T01:00:04Z">
+	<bounds minlat="35.768" minlon="-78.6769999" maxlat="35.773" maxlon="-78.6699999"/>
+	<node id="373084187" lat="35.7728793" lon="-78.675507" version="1"/>
+	<node id="3599727535" lat="35.7729205" lon="-78.6754721" version="1"/>
+	<node id="3599727536" lat="35.77295" lon="-78.6755249" version="1"/>
+	<node id="668387584" lat="35.7729994" lon="-78.6754831" version="1">
+		<tag k="bicycle" v="no"/>
+		<tag k="entrance" v="yes"/>
+		<tag k="foot" v="no"/>
+		<tag k="motor_vehicle" v="yes"/>
+	</node>
+	<node id="3599727530" lat="35.7726576" lon="-78.6751094" version="1"/>
+	<node id="3599727531" lat="35.7726954" lon="-78.6750775" version="1"/>
+	<node id="373084188" lat="35.7726659" lon="-78.6750245" version="1"/>
+	<way id="33069336" version="1">
+		<nd ref="668387584"/>
+		<nd ref="3599727536"/>
+		<nd ref="3599727535"/>
+		<nd ref="373084187"/>
+		<nd ref="3599727530"/>
+		<nd ref="3599727531"/>
+		<nd ref="373084188"/>
+	</way>
+</osm>

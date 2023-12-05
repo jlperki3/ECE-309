@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmconvert 0.8.11" timestamp="2023-01-09T01:00:04Z">
+	<bounds minlat="35.000" minlon="-78.080" maxlat="35.080" maxlon="-78.010"/>
+	<node id="0000" lat="35.000" lon="-78.080" version="1"/>
+	<node id="0100" lat="35.010" lon="-78.080" version="1"/>
+	<node id="0200" lat="35.020" lon="-78.080" version="1"/>
+	<node id="0400" lat="35.040" lon="-78.080" version="1"/>
+	<node id="0600" lat="35.060" lon="-78.080" version="1"/>
+	<node id="0700" lat="35.070" lon="-78.080" version="1"/>
+	<node id="0001" lat="35.000" lon="-78.070" version="1"/>
+	<node id="0201" lat="35.020" lon="-78.070" version="1"/>
+	<node id="0301" lat="35.030" lon="-78.070" version="1"/>
+	<node id="0501" lat="35.050" lon="-78.070" version="1"/>
+	<node id="0601" lat="35.060" lon="-78.070" version="1"/>
+	<node id="0002" lat="35.000" lon="-78.060" version="1"/>
+	<node id="0202" lat="35.020" lon="-78.060" version="1"/>
+	<node id="0402" lat="35.040" lon="-78.060" version="1"/>
+	<node id="0502" lat="35.050" lon="-78.060" version="1"/>
+	<node id="0602" lat="35.060" lon="-78.060" version="1"/>
+	<node id="0802" lat="35.080" lon="-78.060" version="1"/>
+	<node id="0003" lat="35.000" lon="-78.050" version="1"/>
+	<node id="0303" lat="35.030" lon="-78.050" version="1"/>
+	<node id="0403" lat="35.040" lon="-78.050" version="1"/>
+	<node id="0503" lat="35.050" lon="-78.050" version="1"/>
+	<node id="0603" lat="35.060" lon="-78.050" version="1"/>
+	<node id="0703" lat="35.070" lon="-78.050" version="1"/>
+	<node id="0004" lat="35.000" lon="-78.040" version="1"/>
+	<node id="0104" lat="35.010" lon="-78.040" version="1"/>
+	<node id="0204" lat="35.020" lon="-78.040" version="1"/>
+	<node id="0404" lat="35.040" lon="-78.040" version="1"/>
+	<node id="0604" lat="35.060" lon="-78.040" version="1"/>
+	<node id="0405" lat="35.040" lon="-78.030" version="1"/>
+	<node id="0705" lat="35.070" lon="-78.030" version="1"/>
+	<node id="0406" lat="35.040" lon="-78.020" version="1"/>
+	<node id="0606" lat="35.060" lon="-78.020" version="1"/>
+	<node id="0007" lat="35.000" lon="-78.010" version="1"/>
+	<node id="0207" lat="35.020" lon="-78.010" version="1"/>
+	<node id="0407" lat="35.040" lon="-78.010" version="1"/>
+	<node id="0607" lat="35.060" lon="-78.010" version="1"/>
+	<node id="0807" lat="35.080" lon="-78.010" version="1"/>
+	<way id="1001" version="1">
+		<nd ref="0000"/>
+		<nd ref="0100"/>
+		<nd ref="0200"/>
+		<nd ref="0400"/>
+		<nd ref="0402"/>
+		<nd ref="0403"/>
+		<nd ref="0503"/>
+		<nd ref="0603"/>
+		<nd ref="0703"/>
+		<nd ref="0705"/>
+		<tag k="highway" v="footway"/>
+		<tag k="name" v="grey"/>
+	</way>
+	<way id="1002" version="1">
+		<nd ref="0200"/>
+		<nd ref="0301"/>
+		<nd ref="0402"/>
+		<tag k="highway" v="footway"/>
+		<tag k="name" v="yellow"/>
+	</way>
+	<way id="1003" version="1">
+		<nd ref="0406"/>
+		<nd ref="0405"/>
+		<nd ref="0404"/>
+		<nd ref="0204"/>
+		<nd ref="0104"/>
+		<nd ref="0004"/>
+		<nd ref="0007"/>
+		<nd ref="0207"/>
+		<nd ref="0407"/>
+		<nd ref="0406"/>
+		<tag k="highway" v="footway"/>
+		<tag k="name" v="blue"/>
+	</way>
+	<way id="1004" version="1">
+		<nd ref="0003"/>
+		<nd ref="0204"/>
+		<nd ref="0405"/>
+		<nd ref="0606"/>
+		<nd ref="0807"/>
+		<tag k="highway" v="footway"/>
+		<tag k="name" v="orange"/>
+	</way>
+	<way id="1005" version="1">
+		<nd ref="0802"/>
+		<nd ref="0602"/>
+		<nd ref="0502"/>
+		<nd ref="0402"/>
+		<nd ref="0202"/>
+		<tag k="highway" v="footway"/>
+		<tag k="name" v="red"/>
+	</way>
+	<way id="1006" version="1">
+		<nd ref="0607"/>
+		<nd ref="0606"/>
+		<nd ref="0604"/>
+		<nd ref="0603"/>
+		<nd ref="0602"/>
+		<nd ref="0601"/>
+		<nd ref="0600"/>
+		<tag k="highway" v="footway"/>
+		<tag k="name" v="purple"/>
+	</way>
+	<way id="1007" version="1">
+		<nd ref="0003"/>
+		<nd ref="0303"/>
+		<nd ref="0402"/>
+		<nd ref="0501"/>
+		<nd ref="0600"/>
+		<nd ref="0700"/>
+		<tag k="highway" v="footway"/>
+		<tag k="name" v="green"/>
+	</way>
+	<way id="1008" version="1">
+		<nd ref="0201"/>
+		<nd ref="0001"/>
+		<nd ref="0002"/>
+		<tag k="highway" v="footway"/>
+		<tag k="name" v="teal"/>
+	</way>
+</osm>
