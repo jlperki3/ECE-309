@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Zybooks_13_18",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Zybooks_13_18::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Zybooks_13_18-Debug-1943b20a276f04bb8cbf.json",
+					"name" : "Zybooks_13_18",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/joshperkins/Documents/Documents - all/CLionProjects/ECE309/HW4/Zybooks 13.18/cmake-build-debug",
+		"source" : "/Users/joshperkins/Documents/Documents - all/CLionProjects/ECE309/HW4/Zybooks 13.18"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
